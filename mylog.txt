@@ -1,0 +1,15 @@
+A new booking has been made: TourA: 30 - Donald Duck - 25/01/2015 - 18:00
+A new booking has been made: One night stay at hostel: 50 + TourB: 30 - Donald Duck - 25/01/2015 - 18:00
+A new booking has been made: 3 Course Meal Added: 20 + TOUR-A: 30 - Donald Duck - 25/01/2015 - 18:00
+A new booking has been made: Entry to Guiness Brewery: 5 + One night stay at hostel: 50 + 3 Course Meal Added: 20 + TOUR-A: 30 - David Brady - 2016-04-12 - 18:00
+############################# Observer:
++++ TourBookingObserver: The Booking for Donald Duck: TOUR-A has been updated.Cost 50.0
+#############################################
+A new booking has been made: TOUR-A: 30 - Donald Duck - 26/02/2015 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for Donald Duck: TOUR-A has been Created.Cost 30.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - david.brady4@gmail.com - 25/01/2015 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for david.brady4@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################

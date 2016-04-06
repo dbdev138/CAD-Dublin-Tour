@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cost: 9.99
+  tourname: MyString
+  bookingname: MyString
+  date: MyString
+  time: MyString
+  description: MyString
+
+two:
+  cost: 9.99
+  tourname: MyString
+  bookingname: MyString
+  date: MyString
+  time: MyString
+  description: MyString

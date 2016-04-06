@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bookings</h1>
+
+<table class="table table-striped table-hover"
+  <thead>
+    <tr>
+      <th>Cost</th>
+      <th>Tour Name</th>
+      <th>Email Address</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @tour_bookings.each do |tour_booking| %>
+      <tr>
+        <% if current_user.admin? %>
+        <td>€<%= tour_booking.cost %></td>
+        <td><%= tour_booking.tourname %></td>
+        <td><%= tour_booking.bookingname %></td>
+        <td><%= tour_booking.date %></td>
+        <td><%= tour_booking.time %></td>
+        <td><%= tour_booking.description %></td>
+        <td><%= link_to 'Show', tour_booking %></td>
+        <td><%= link_to 'Edit', edit_tour_booking_path(tour_booking) %></td>
+        <td><%= link_to 'Destroy', tour_booking, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tour booking', new_tour_booking_path %>

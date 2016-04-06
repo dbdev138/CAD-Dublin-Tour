@@ -1,0 +1,67 @@
+<%= form_for(@tour_booking) do |f| %>
+  <% if @tour_booking.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tour_booking.errors.count, "error") %> prohibited this tour_booking from being saved:</h2>
+
+      <ul>
+      <% @tour_booking.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+<form class="form-inline">
+  
+  <div class="field form-group" type="hidden">
+    <%= f.label :cost, style: "display:none;"%><br>
+    <%= f.text_field :cost, :placeholder => '€30', style: "display:none;" %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :tourname %><br>
+    <div class="controls">
+      <%= f.select(:tourname, options_for_select([
+      ['Historical Pub Crawl', 'Historical Pub Crawl'],
+      ['Best of Dublin Nightlife', 'Best of Dublin Nightlife'],
+      ['Dublin Whiskey Run', 'Dublin Whiskey Run']])) %>
+    </div>
+  </div>
+  <div class="field form-group">
+    <%= f.label :bookingname, 'Your Email' %><br>
+    <%= f.text_field :bookingname %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :date %><br>
+    <%= f.text_field :date %>
+  </div>
+  <div class="field form-group">
+    <%= f.label :time %><br>
+    <div class="controls">
+      <%= f.select(:time, options_for_select([
+      ['16:00', '16:00'],
+      ['18:00', '18:00'],
+      ['20:00', '20:00']])) %>
+    </div>
+  </div>
+  <div class="field form-group">
+    <%= f.label :description, style: "display:none;" %><br>
+    <%= f.text_field :description, style: "display:none;" %>
+  </div>
+  
+      <div class="field form-group">
+    Add a 3 Course Meal: <%= check_box_tag 'tour_booking[meal]', 'meal' %>
+  </div>
+  <div class="field form-group">
+    Add a nights stay at Dubin Hostel: <%= check_box_tag 'tour_booking[hostel]', 'hostel' %>
+  </div>
+  <div class="field form-group">
+    Add discounted entry to the Guiness Brewery: <%= check_box_tag 'tour_booking[brewery]', 'brewery' %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+</form>
