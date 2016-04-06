@@ -13,3 +13,35 @@ A new booking has been made: Historical Pub Crawl: 30 - david.brady4@gmail.com -
 #############################################
 +++ TourBookingObserver: The Booking for david.brady4@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
 #############################################
+A new booking has been made: 3 Course Meal Added: 20 + Historical Pub Crawl: 30 - cadproject2016@gmail.com - 25/01/2015 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 50.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com - 25/01/2015 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com - 2016-04-07 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com - 2016-04-07 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com - 2016-04-07 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################
+A new booking has been made: Entry to Guiness Brewery: 5 + 3 Course Meal Added: 20 + Dublin Whiskey Run: 30 - cadproject2016@gmail.com - 2016-04-13 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Dublin Whiskey Run has been Created.Cost 55.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com - 2016-04-14 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################
+A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com - 2016-04-01 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
+#############################################

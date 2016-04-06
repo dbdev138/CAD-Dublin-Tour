@@ -31,8 +31,8 @@
               </td>
               <td>€30</td>
               <td>4</td>
-              <td>View Map</td>
-              <td><a href="/tour_bookings" class="btn btn-info">Book Tour</a></td>
+              <td><a href="#tour1" data-toggle="modal" class="btn btn-info">View Map</a></td>
+              <td><a href="/tour_bookings/new" class="btn btn-info">Book Tour</a></td>
             </tr>
             <tr>
               <td>Best of Dublin Nightlife</td>
@@ -43,8 +43,8 @@
               </td>
               <td>€30</td>
               <td>3</td>
-              <td>View Map</td>
-              <td><a href="/tour_bookings" class="btn btn-info">Book Tour</a></td>
+              <td><a href="#tour2" data-toggle="modal" class="btn btn-info">View Map</a></td>
+              <td><a href="/tour_bookings/new" class="btn btn-info">Book Tour</a></td>
             </tr>
             <tr>
               <td>Dublin Whiskey Run</td>
@@ -57,8 +57,8 @@
               </td>
               <td>€30</td>
               <td>2</td>
-              <td>View Map</td>
-              <td><a href="/tour_bookings" class="btn btn-info">Book Tour</a></td>
+              <td><a href="#tour3" data-toggle="modal" class="btn btn-info">View Map</a></td>
+              <td><a href="/tour_bookings/new" class="btn btn-info">Book Tour</a></td>
             </tr>
           </tbody>
         </table> 
@@ -66,3 +66,68 @@
         
       </div>
     </div>
+    
+    
+    <div class="modal fade" id="tour1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h3>Historical Pub Crawl</h3>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Insert Map -->
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.901518111543!2d-6.278579984161604!3d53.345019079978705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x316ccdee24ae96ab!2sThe+Brazen+Head!5e0!3m2!1sen!2sie!4v1459984640073" 
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal" >Close</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="tour2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h3>Best of Dublin Nightlife</h3>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Insert Map -->
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.4393887591646!2d-6.265802248535883!3d53.33539038313463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9f9a799093%3A0xb861fbad14b1bce3!2sCopper+Face+Jacks!5e0!3m2!1sen!2sie!4v1459984917160" 
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal" >Close</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="tour3" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h3>Dublin Whiskey Runl</h3>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Insert Map -->
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7137973202134!2d-6.279548448535474!3d53.3483792821617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c2ec3a240b3%3A0x4648dc6ec655a14!2sOld+Jameson+Distillery!5e0!3m2!1sen!2sie!4v1459984967023" 
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal" >Close</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+

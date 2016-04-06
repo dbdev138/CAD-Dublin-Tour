@@ -1,4 +1,5 @@
 require 'my_logger'
+require 'tour_booking_mailer'
 
 class TourBookingObserver < ActiveRecord::Observer
    
@@ -22,6 +23,10 @@ class TourBookingObserver < ActiveRecord::Observer
         "#{record.bookingname}: #{record.tourname} has been Created." +
         "Cost #{record.cost}")
         @logger.logInformation("#############################################")
+        
+        
+        TourBookingMailer.booking_confirmation(record).deliver
+        
     end
     
 end
