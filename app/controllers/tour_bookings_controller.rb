@@ -16,6 +16,11 @@ class TourBookingsController < ApplicationController
   # GET /tour_bookings.json
   def index
     @tour_bookings = TourBooking.all
+    if params[:search]
+      @tour_bookings = TourBooking.search(params[:search]).order("created_at DESC")
+    else
+      @tour_bookings = TourBooking.all.order("created_at DESC")
+    end
   end
 
   # GET /tour_bookings/1

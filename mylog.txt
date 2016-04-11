@@ -45,3 +45,7 @@ A new booking has been made: Historical Pub Crawl: 30 - cadproject2016@gmail.com
 #############################################
 +++ TourBookingObserver: The Booking for cadproject2016@gmail.com: Historical Pub Crawl has been Created.Cost 30.0
 #############################################
+A new booking has been made: 3 Course Meal Added: 20 + Best of Dublin Nightlife: 30 - david.brady4@gmail.com - 2016-04-15 - 18:00
+#############################################
++++ TourBookingObserver: The Booking for david.brady4@gmail.com: Best of Dublin Nightlife has been Created.Cost 50.0
+#############################################
